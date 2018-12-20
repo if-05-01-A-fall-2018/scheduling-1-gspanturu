@@ -1,0 +1,20 @@
+1.
+
+
+2.
+Process                 	A	B	 C	 D	 E	 F	G	   H
+Expected run time (msec)	8	5	16	12	55	21	2 	34
+
+         G B A D   C  F  H  E
+Ordered: 2 5 8 12 16 21 34 55
+
+a) shortest first: 2 7 15 27 43 64 98 153
+    Sum: 409
+    Average: 51.12
+
+b) longest first: 55 89 110 126 138 146 151 153
+    Sum: 968
+    Average: 121
+
+3.
+When a process occurs twice in the list, it will get twice as much runtime, while the processes that only occur once still get their normal runtime.
